@@ -13,6 +13,9 @@ module.exports = {
         use: [
           {
             loader: "file-loader",
+            options: {
+              name: "assets/img/[name].[ext]",
+            },
           },
         ],
       },
