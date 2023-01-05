@@ -1,5 +1,13 @@
-import contact from "./contact";
-import home from "./home";
-import menu from "./menu";
+import generateContact from "./contact";
+import generateHome from "./home";
+import generateMenu from "./menu";
+import generateNav from "./nav";
+import activateListeners from "./listeners";
 
-export { contact, home, menu };
+export {
+  generateContact,
+  generateHome,
+  generateMenu,
+  generateNav,
+  activateListeners,
+};
