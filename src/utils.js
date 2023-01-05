@@ -1,3 +1,9 @@
+export function clearNode(node) {
+  while (node.hasChildNodes()) {
+    node.removeChild(node.firstChild);
+  }
+}
+
 export function generateElement({
   name = "div",
   properties = {},
