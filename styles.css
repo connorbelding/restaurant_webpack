@@ -179,7 +179,8 @@ nav button {
 .menu_item-wrapper img {
   max-height: auto;
   width: 100%;
-  border-radius: 100%;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .menu_item-text-wrapper {
